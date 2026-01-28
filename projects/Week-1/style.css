@@ -1,0 +1,186 @@
+ /* this is a comment made using "command /" */
+
+            body {
+                background-color: rgb(125, 125, 125);
+            }
+
+            /* #background-text { 
+    position: fixed;
+    margin: 0px;
+    color: aquamarine;
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+    font-size: 50vw;
+    font-family: Helvetica;
+}
+*/
+
+            #firstbox{
+               position: absolute;
+                color: rgba(0, 255, 247, 0.1);
+                background-color: rgb(13, 0, 255);
+                text-shadow: 30px -3px 10px rgb(255, 255, 255);
+                border: 4px dotted rgb(255, 255, 255);
+                width: 1fr;
+                height: 10px;
+                left: 100px;
+                right: 100px;
+                top: 200px;
+                font-size: 200px;
+                font-family: Helvetica;
+                text-align: justify;
+                z-index: 1;
+            }
+
+            #playme{
+                position: fixed;
+                top: 5vw;
+                right: 19vw;
+                background-color: aquamarine;
+            }
+
+            .star {
+                position: fixed;
+                width: fit-content;
+                line-height: 80%;
+                font-family: 'Franklin Gothic Medium';
+                opacity: 1;
+                z-index: 100;
+            }
+
+            #one {
+                font-size: 10em;
+                top: 40vh;
+                left: 30vw;
+                color: rgb(255, 255, 255);
+                text-shadow: 1px -3px 10px aquamarine;
+
+            }
+
+            #two {
+                font-size: 15em;
+                top: 15vh;
+                left: 70vw;
+                color:aquamarine;
+                text-shadow: 10px -3px 10px rgb(255, 255, 255);
+
+            }
+
+            #three {
+                font-size: 5em;
+                top: 80vh;
+                left: 70vw;
+                color: rgb(255, 255, 255);
+                text-shadow: 1px -3px 10px rgb(17, 0, 255);
+            }
+
+            #smiley {
+                position: fixed;
+            }
+
+
+            #circle {
+                width: 100vw;
+                height: 100vh;
+                border-radius: 100%;
+                border: 2px solid aquamarine;
+                box-shadow: 0 0 20px aquamarine;
+                background-image: linear-gradient(rgb(255, 255, 255),aquamarine, white);
+
+            }
+
+            #circle-2 {
+                position: absolute;
+                top: 30vh;
+                left: 100pt;
+                width: 30vw;
+                height: 60vw;
+                border-radius: 100%;
+                border: 2px solid rgb(255, 255, 255);
+                box-shadow: 0 0 20px rgb(255, 255, 255);
+                background-image: linear-gradient(rgb(255, 255, 255),rgb(43, 0, 255), white);
+
+            }
+
+            img {
+                border-radius: 3% 3% 3% 3%;
+                width: 15%;
+                border: 3px solid rgb(255, 255, 255);
+                box-shadow: 0 10px 20px rgb(255, 255, 255);;
+
+            }
+
+            #image-1 {
+                position: absolute;
+                top: 1vh;
+                right: 50%;
+                opacity: 0.7;
+            }
+
+            #image-3 {
+                position: absolute;
+                top: 50%;
+                right: 1/10vw;
+                opacity: 0.7;
+            }
+             #image-4 {
+                position: fixed;
+                top: 50%;
+                right: 1vw;
+                opacity: 0.7;
+            }
+
+             #image-5 {
+                position: absolute;
+                bottom: 1vh;
+                right: 50%;
+                opacity: 0.7;
+            }
+
+             #image-6 {
+                position: fixed;
+               top: 5vh;
+                right: 40%;
+                opacity: 0.7;
+            }
+
+            #image-7 {
+                position: absolute;
+               top: 10vh;
+                right: 30%;
+                opacity: 0.7;
+            }
+
+            #image-8 {
+                position: fixed;
+                bottom: 5vh;
+                right: 60%;
+                opacity: 0.7;
+            }
+
+              #image-9 {
+                position: absolute;
+                bottom: 10vh;
+                right: 70%;
+                opacity: 0.7;
+            }
+
+
+
+            #image-2 {
+                position: fixed;
+                top: 20px;
+                left: 50px;
+                width: 100px;
+                opacity: 0.5;
+            }
+
+            #video-1 {
+                position: fixed;
+                width: 17vw;
+                top: 1vh;
+                right: 1vw;
+                border-radius: 0px;
+                z-index: 100;
+            }
