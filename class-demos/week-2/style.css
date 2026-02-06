@@ -1,0 +1,33 @@
+/* body, class, and id are selectors! */
+body {
+    background-image: linear-gradient(white, white, aquamarine);
+}
+
+.text {
+    width: 100vw;
+    font-size: clamp(1rem, 5vw, 3rem);
+    font-family: Arial, sans-serif;
+    color: blue;
+}
+
+#one {
+}
+
+.parent {
+    width: 100vw;
+    height: 400px;
+    background-color: cyan;
+    display: flex;
+    gap: 10px;
+    /* horizontally arranges to be center */
+    justify-content: space-evenly;
+
+    /* vertically arranged to be center */
+    align-items: center
+}
+
+.child {
+    width: 10vw;
+    height: 10vw;
+    background-color: blue;
+}
