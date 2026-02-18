@@ -6,9 +6,7 @@ function init() {
 
 const mountain = document.getElementById("mountain");
 const text = document.getElementById("main-text");
-// const pink = document.getElementById("pink");
-// const orange = document.getElementById("pink");
-// const blue=  document.getElementById("pink");
+
 
 let colors = document.getElementsByClassName("colors");
 
@@ -17,7 +15,7 @@ for(let i=0; i < colors.length; i++){
     
     const scroll = window.scrollY;
 
-    if (scroll >=250 && scroll <=1000) {
+    if (scroll >=250 && scroll <=1000    ) {
       const opacity = scroll/250*0.6;
         colors[i].style.opacity = opacity;
     }
@@ -54,7 +52,7 @@ window.addEventListener("scroll", () => {
 
     if (scroll>0 && scroll<= 250) {
     const scale = 1+ scroll*0.04;
-    mountain.style.transform = `scale(${scale})`;
+    mountain.style.transform = "scale("+scale+","+scale+")";
     mountain.style.left = scroll*2 + "pt";
     console.log(scale);
     console.log(scroll);

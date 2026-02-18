@@ -1,0 +1,41 @@
+body{
+    background-image: radial-gradient(white, rgb(179, 255, 255), rgb(185, 185, 185));
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#temp{
+    position: relative;
+    font-size: 40vw;
+    letter-spacing: -50px;
+    transition: ease-in 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+   
+}
+
+#c{
+    position: absolute;
+    top: 0.3em;
+    right: -1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.3em;
+    letter-spacing: -0.1em;
+    transition: ease-in 0.5s;
+}
+
+#title{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    width: 100vw;
+}
