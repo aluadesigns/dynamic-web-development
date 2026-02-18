@@ -7,7 +7,7 @@ function init(){
     
     function start(){
     var city = document.getElementById("city").value;
-    fetch("http://api.weatherapi.com/v1/current.json?key=24a0c19719d142e98c131224261202&q=" + city + "&aqi=no")
+    fetch("https://api.weatherapi.com/v1/current.json?key=24a0c19719d142e98c131224261202&q=" + city + "&aqi=no")
         .then(response => {
             data = response.json();
             console.log(data);
