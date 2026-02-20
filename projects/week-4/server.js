@@ -33,11 +33,6 @@ app.get("/all-inputs", (req, res) => {
 
 // LAST STEP ALWAYS
 // start our express application
-// app.listen(8000, () => {
-//   console.log("starter server is working");
-// });
-
-const PORT = process.env.PORT || 8000;
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`Server running on port ${PORT}`);
+app.listen(8000, () => {
+  console.log("starter server is working");
 });
