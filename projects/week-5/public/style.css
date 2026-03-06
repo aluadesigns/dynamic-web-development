@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background-color: rgb(225, 225, 225);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#inputarea{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#input{
+    scale: 1.5;
+    text-align: center;
+}
+
+#alltext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    z-index: -10;
+
+
+    
+}
+
+#alltext div {
+    display: inline-block;
+    white-space: nowrap;
+
+}
+
+#typing{
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 100px;
+}
